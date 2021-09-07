@@ -39,7 +39,7 @@ class LinkedInPage extends Component {
         >
           <img src={linkedin} alt="Log in with Linked In" style={{ maxWidth: '180px' }} />
         </LinkedIn>
-        {!code && <div>No code</div>}
+        {!code && <div style={{ color: "white" }}>No code</div>}
         {code && <div>Code: {code}</div>}
         {errorMessage && <div>{errorMessage}</div>}
       </div>
